@@ -1,0 +1,3 @@
+1. Dociąganie pliów reacta: cretae-react-app counter-ap (fgdzie counter-app to nazwa naszego folderu i apki)
+2. start apki jak jesteśmy w folderze j/w: npm start
+3. zakończenie apki: ctrl + c

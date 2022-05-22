@@ -1,0 +1,22 @@
+.counter{
+    position: relative;
+    border: 1px solid red;
+    padding: 30px;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+}
+.counter .showClock {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: lightcoral;
+}
+.counter .showClock:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
