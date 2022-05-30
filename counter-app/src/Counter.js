@@ -4,6 +4,7 @@ import Display from "./Display";
 import ButtonsPanel from "./ButtonsPanel";
 //import Clock from "./Clock";
 import ClockFuncional from "./ClockFuncional";
+import Step from "./Step";
 
 /* Komponent klasowy */
 
@@ -70,6 +71,7 @@ class Counter extends Component {
             <Display displayValue={this.state.counterValue} />
             <ButtonsPanel buttonMethod={this.changeValue} />
             {clockElement}
+            <Step />
         </div>
         )
     }
