@@ -28,7 +28,11 @@ class Counter extends Component {
         })*/
         //console.log(action);
         //MOżna przkazac funkcję
+       
+
+        
         this.setState((prevState, prevProps)=>{
+
             let currentCounterValue = prevState.counterValue;
             if(action==='add'){
                 currentCounterValue += 1;
@@ -54,7 +58,7 @@ class Counter extends Component {
   
 
     render (){
-
+       
         let clockElement = '';
         if(this.state.showClock){
             //clockElement = <Clock toggleClockMethod = {this.toggleClock} />;
