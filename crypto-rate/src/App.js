@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Crypto rate</h1>
+        <h2>Roman Zbroiński</h2>
       </header>
       <Crypto />
     </div>

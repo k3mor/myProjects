@@ -1,0 +1,11 @@
+.Crypto{
+    margin: 20px;
+}
+.Crypto input{
+    font-size: 20px;
+    line-height: 2;
+    padding: 0 5px; 
+}
+.Crypto input:focus{
+    outline-color: lightblue;
+}
